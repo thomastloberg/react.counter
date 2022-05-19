@@ -10,8 +10,8 @@ function App(){
     <div className="app">
       <h1 className={count > 0 ? "positive" : count < 0 ? "negative" : null}>{count}</h1>
       <div className="button__wrapper">
-        <button className='negative' onClick={() => setCount(count-1)}>-</button>
-        <button className='positive' onClick={() => setCount(count+1)}>+</button>
+        <button className='negative' onClick={() => setCount(count-1)}>MINUS</button>
+        <button className='positive' onClick={() => setCount(count+1)}>PLUS</button>
       </div>
     </div>
   );
