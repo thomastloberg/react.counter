@@ -1,1 +1,1 @@
-A small Reach counter test
+A small React Counter test
